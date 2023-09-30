@@ -1,0 +1,27 @@
+let a=1;
+let b="1";
+let c= true;
+let d=null;
+let e=undefined;
+let f=1;
+console.log("loose equality:");
+console.log(a==b);
+console.log(a==c);
+console.log(d==e);
+console.log(a==f);
+console.log("Strict Equality:");
+console.log(a===b);
+console.log(a===c);
+console.log(d===e);
+console.log(a===f);
+console.log("strict Inequality:")
+console.log("loose equality:");
+console.log(a!=b);
+console.log(a!=c);
+console.log(d!=e);
+console.log(a!=f);
+console.log("Strict Equality:");
+console.log(a!==b);
+console.log(a!==c);
+console.log(d!==e);
+console.log(a!==f);
