@@ -1,3 +1,56 @@
+//function declaration syntax
+// function   function name (){
+//     conmsole.log / return result
+// }
+//named function
+function greet(name){ //function name is greet->1.declaration
+    console.log(`Hello, ${name}!`); //2.block of code inside the function
+}
+greet(`prem1`)            //3calling the function
+//=================
+//function expression
+// 1.named expression 
+//syntax
+//const or let variable name = function(parameters){
+    //return result
+//}
+const  greeting =function(name){
+    console.log(`Hello, ${name}!`);
+}
+greeting('prem2')
+//2. anonymous expression 
+// function not having the name 
+const add = function(a, b) {
+    return a + b;
+  };
+  const mul =function(a,b){
+    return a*b;
+  }
+  
+  const result = add(3, 4);
+  const result1= mul(3,4)
+  console.log(result,result1);
+
+
+
+// //3. function expression  as parameters
+// //syntax
+// function   function operations (a,b){
+//     conmsole.log / return result
+// }
+
+ 
+
+
+
+
+
+
+
+
+
+
+
 // function statement & Parameter vs Argument
 
 // function web21(){
